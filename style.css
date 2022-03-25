@@ -1,0 +1,44 @@
+body{
+  background:#151515;
+  color:#cecece;
+
+}
+input{
+  margin: 2px;
+  outline: none;
+}
+textarea{
+outline: none;
+
+}
+div.comentario{
+  margin: 2px;
+  margin-top: 5px;
+  padding: 4px 4px 4px 5px;
+  border-radius: 6px;
+  background: rgba(50, 50, 50, 0.4);
+  width: 500px;
+}
+
+p#msg{
+  margin: 0px 0px 0px 10px;
+  color: white;
+}
+
+p#nome{
+  font-size: 17px;
+  color: rgb(120, 120, 120);
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+img{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 2px;
+}
+
+div.name{
+  display: inline;
+}
