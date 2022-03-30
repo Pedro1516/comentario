@@ -10,7 +10,11 @@
     <div class="container">
       <input type="text" id="name" placeholder="Seu nome"/>
       <input type="button" id="btn" value="Confirmar" />
-      <input type="file" id="foto-perfil">
+      <label for="foto-perfil">
+        <div id="perfil">Selecione uma foto de perfil</div>
+      </label>
+      <input hidden type="file" id="foto-perfil">
+      
     </div>
     <div>
       <textarea placeholder="Comentario" id="text" rows="8" cols="40"></textarea>
